@@ -1,0 +1,31 @@
+h1 {
+
+    text-align: center;
+    font-size: 48pt;
+}
+
+main > h1 {
+
+    text-align: left;
+    font-size: 24pt;
+}
+
+img {
+
+    padding-left: 45px;
+}
+
+main > p {
+
+    text-align: center;
+    max-width: 800px;
+
+    padding-left: 165px;
+}
+
+footer {
+
+    text-align: center;
+    
+    padding-top: 25px;
+}
