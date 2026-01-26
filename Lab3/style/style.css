@@ -1,3 +1,9 @@
+/*
+* {
+    outline: 1px solid #000000;
+}
+    */
+
 h1 {
 
     color: whitesmoke;
@@ -6,6 +12,11 @@ h1 {
     font-family: "fabulosa", sans-serif;
     font-weight: 400;
     font-style: normal;
+
+    background-color: rgb(141, 173, 115);
+
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 body {
@@ -18,8 +29,9 @@ img {
     max-width: 650px;
     width: 100%;
 
-    padding-left: 220px;
-    padding-bottom: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 main > section > p {
@@ -28,10 +40,13 @@ main > section > p {
     font-family: "polymath", sans-serif;
     font-weight: 100;
     font-style: normal;
-    max-width: 750px;
+    max-width: 725px;
 
-    padding-left: 175px;
-    padding-bottom: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 25px 0px;
 }
 
 footer {
@@ -43,6 +58,16 @@ footer {
 
     background-color: rgb(141, 173, 115);
     
-    padding-top: 50px;
-    padding-bottom: 25px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer > a {
+
+    padding-left: 10px;
+    padding-right: 10px;
 }
