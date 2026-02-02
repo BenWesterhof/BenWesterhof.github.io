@@ -7,11 +7,18 @@ body{
 
     font-size: 18pt;
     text-align: center;
+    background-color: rgb(190, 209, 255);
+}
+
+h1 {
+
+    background-color: rgb(47, 83, 229);
+    color: aliceblue;
 }
 
 .blue {
 
-    color: blue;
+    background-color: rgb(112, 137, 202)
 }
 
 .red {
@@ -37,54 +44,6 @@ body{
 .italic {
 
     font-style: italic;
-}
-
-.western {
-
-    font-family: "thornwood-vf", sans-serif;
-    font-variation-settings: "wght" 200, "wdth" 50;
-}
-
-.space {
-
-    font-family: "new-astro", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-}
-
-.tech {
-
-    font-family: "coral-pixels", sans-serif;
-    font-weight: 400;
-    font-style: normal; 
-}
-
-.horror {
-
-    font-family: "cc-chills", sans-serif;
-    font-weight: 400;
-    font-style: normal; 
-}
-
-.jazz {
-
-    font-family: "swordfish", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.thick {
-
-    font-family: "brothers", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-}
-
-.japanese {
-
-    font-family: "tk-takumi-yutori-font-norm", sans-serif;
-    font-weight: 400;
-    font-style: normal;
 }
 
 .lightshade {
