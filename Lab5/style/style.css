@@ -1,0 +1,22 @@
+:root {
+
+    font-size: 18pt;
+}
+
+div {
+
+    outline: 3px solid #ff00ff;
+    padding: 10px;
+    max-width: 300px;
+    max-height: 300px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+
+}
+
+p {
+
+    background-color: aqua;
+    padding: 5px;
+    min-width: 700px;
+}
