@@ -1,24 +1,23 @@
-* {
+/* * {
 
     outline: 1px solid aqua;
-}
+} */
 
 body {
 
   display: flex;
   justify-content: center;
-  padding: 50px 0;
+  background-color: #eaeaea;
 }
 
 .post {
-  width: 360px;
-  background: #fff;
-  border: 1px solid #dbdbdb;
-  border-radius: 4px;
+
+  width: 300px;
+  background-color: #ffffff;
 }
 
-/* Header */
 .post-header {
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -26,84 +25,55 @@ body {
 }
 
 .user {
+
   display: flex;
   align-items: center;
 }
 
 .avatar {
-  width: 36px;
-  height: 36px;
+
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
-  background: linear-gradient(45deg, #feda75, #d62976, #962fbf);
+  background-color: gray;
   margin-right: 10px;
 }
 
-.user-info {
-  font-size: 12px;
-}
+.image {
 
-.username {
-  font-weight: 600;
-}
-
-.meta {
-  color: #8e8e8e;
-  margin-left: 4px;
-}
-
-.location {
-  color: #8e8e8e;
-  font-size: 11px;
-}
-
-.menu {
-  cursor: pointer;
-  font-weight: bold;
-}
-
-/* Image */
-.post-image {
-  width: 100%;
+  width: 90%;
   height: 360px;
   background: #eaeaea;
+  margin-left: 15px;
 }
 
-/* Actions */
-.post-actions {
+.icons {
+
   display: flex;
   justify-content: space-between;
   padding: 10px 12px;
 }
 
-.left-actions {
+.left-icons {
+
   display: flex;
   gap: 12px;
 }
 
 .icon {
+
   width: 22px;
   height: 22px;
-  background: #e0e0e0;
-  border-radius: 4px;
+  background-color: #e0e0e0;
 }
 
-/* Caption */
-.post-caption {
+.caption {
+
   padding: 0 12px 12px;
-  font-size: 13px;
 }
 
 .likes {
-  font-weight: 600;
+
   display: block;
   margin-bottom: 6px;
-}
-
-.post-caption p {
-  margin: 0;
-}
-
-.more {
-  color: #8e8e8e;
-  cursor: pointer;
 }
