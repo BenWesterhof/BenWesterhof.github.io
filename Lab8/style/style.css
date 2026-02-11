@@ -3,6 +3,11 @@
     font-size: 18pt;
 }
 
+* {
+
+    outline: 2px solid magenta;
+}
+
 body {
 
     margin: 0;
@@ -13,12 +18,111 @@ body {
 
 header, nav, main, footer {
 
-    
+
     background-color: aqua;
+}
+
+header {
+
+    background-color: blueviolet;
+    height: 200px;
+    font-size: 4rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+
+    background-color: rgb(235, 199, 53);
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+nav a {
+
+    display: inline-block;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+
+nav a:link {
+
+    color: black;
+
+}
+
+nav a:hover {
+
+    background-color: aliceblue;
+    color: purple;
+    transform: rotate(180deg) scale(2);
 }
 
 main {
 
+    background-color: rgb(93, 205, 95);
+    min-height: 500px;
+
     display: flex;
     flex-direction: row;
+    gap: 10px;
+}
+
+aside {
+
+    background-color: rgb(235, 53, 53);
+    width: 400px;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+aside a {
+
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+article {
+
+    background-color: rgb(235, 53, 53);
+    flex-grow: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+article div {
+
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    font-size: 0.6rem;
+    padding: 5px;
+}
+
+article div div {
+
+    width: 180px;
+    height: 120px;
+    background-color: grey;
+
+}
+
+footer {
+
+    background-color: rgb(69, 48, 228);
+    min-height: 300px;
 }
