@@ -86,6 +86,11 @@
     width: 6.25%;
 }
 
+#nine div {
+
+    height: 50%;
+}
+
 #chessboard div:nth-of-type(even) div:nth-of-type(even) {
 
     background-color: blueviolet;
