@@ -19,7 +19,7 @@
 
     width: 90vw;
     aspect-ratio: 1 / 1;
-    max-height: 90vh;
+    max-height: 90vw;
     max-width: 90vw;
     display: flex;
     flex-direction: column;
@@ -45,6 +45,7 @@
     font-size: 36pt;
     flex-grow: 1;
     width: 12.5%;
+    aspect-ratio: 1 / 1;
 }
 
 /* #nine > div:nth-of-type(1) {
