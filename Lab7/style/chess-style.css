@@ -47,49 +47,49 @@
     width: 12.5%;
 }
 
-#nine > div:nth-of-type(1) {
+/* #nine > div:nth-of-type(1) {
 
-    width: 6.25%;
+    background-color: blueviolet;
 }
 
 #eight > div:nth-of-type(1) {
 
-    width: 6.25%;
+    background-color: blueviolet;
 }
 
 #seven > div:nth-of-type(1) {
 
-    width: 6.25%;
+    background-color: blueviolet;
 }
 #six > div:nth-of-type(1) {
 
-    width: 6.25%;
+    background-color: blueviolet;
 }
 #five > div:nth-of-type(1) {
 
-    width: 6.25%;
+    background-color: blueviolet;
 }
 #four > div:nth-of-type(1) {
 
-    width: 6.25%;
+    background-color: blueviolet;
 }
 #three > div:nth-of-type(1) {
 
-    width: 6.25%;
+    background-color: blueviolet;
 }
 #two > div:nth-of-type(1) {
 
-    width: 6.25%;
+    background-color: blueviolet;
 }
 #one > div:nth-of-type(1) {
 
-    width: 6.25%;
+    background-color: blueviolet;
 }
 
-#nine div {
+#nine {
 
-    height: 50%;
-}
+    background-color: blueviolet;
+} */
 
 #chessboard div:nth-of-type(even) div:nth-of-type(even) {
 
