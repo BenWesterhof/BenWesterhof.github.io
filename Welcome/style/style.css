@@ -9,9 +9,10 @@ body {
     width: 100vw;
     height: 100vh;
 
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
     background-size: cover;
-    background-image: url("../../Media/colored-pencils.png");    
+    background-image: url("../../Media/colored-pencils.png");
+    background-position: bottom;
 }
 
 h1 {
