@@ -12,7 +12,7 @@ body {
     background-repeat: repeat-x;
     background-size: cover;
     background-image: url("../../Media/colored-pencils.png");
-    background-position: bottom;
+    background-position: right;
 }
 
 h1 {
@@ -31,11 +31,13 @@ p {
     font-size: 18pt;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: left;
 
     font-family: "all-round-gothic", sans-serif;
     font-weight: 500;
     font-style: normal;
+
+    margin-left: 20px;
 }
 
 p a:link {
