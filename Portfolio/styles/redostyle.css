@@ -1,0 +1,445 @@
+/* * {
+
+    outline: 1px solid red;
+} */
+
+:root {
+
+    font-size: 29pt;
+
+    --backgroundColor: #111d21;
+    --primaryColor: #efecee;
+    --secondaryColor: #88b2df;
+}
+
+
+body {
+
+    background-color: var(--backgroundColor);
+    margin: 25px;
+}
+
+
+
+
+/* Header and Nav Area */
+header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+nav {
+
+    grid-area: nav;
+    display: flex;
+    justify-content: flex-end;
+
+    font-size: 20pt;
+}
+
+nav a {
+
+    font-family: "bricolage-grotesque", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    color: var(--primaryColor);
+    font-size: 20pt;
+
+    text-decoration: none;
+
+    margin-left: 30px;
+}
+
+.logo {
+
+    position: absolute;
+    top: 30px;
+    left: 25px;
+    width: 60px;
+    height: 30px;
+}
+
+
+
+
+/* Hero Area */
+.hero {
+
+    border-top: 2px solid var(--primaryColor);
+}
+
+h1 {
+
+    color: var(--primaryColor);
+    font-size: 48pt;
+}
+
+.title {
+
+    font-size: 48pt;
+    line-height: 80%;
+
+    padding-bottom: 100px;
+}
+
+
+
+
+/* Project Area */
+.projectspace {
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.project {
+
+    display: flex;
+    flex-direction: column;
+
+    border-top: 2px solid var(--primaryColor);
+    padding-top: 20px;
+
+    gap: 15px;
+}
+
+.project-description {
+
+    display: none;
+}
+
+h2 {
+
+    color: var(--secondaryColor);
+    font-size: 26pt;
+
+    margin-top: 5px;
+}
+
+.coverphoto {
+
+    width: 100%;
+    height: auto;
+
+    border-radius: 6px;
+
+    margin-bottom: 20px;
+}
+
+
+
+
+/* Specific Project Info */
+.specific-project {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.project-qualifiers {
+
+    display: flex;
+    flex-direction: row;
+
+    padding-bottom: 30px;
+
+    border-bottom: 2px solid var(--primaryColor);
+}
+
+.left-block {
+
+    flex: 1;
+}
+
+.right-block {
+
+    flex: 1;
+    text-align: right;
+}
+
+.program {
+
+    font-size: 14pt;
+
+    color: var(--primaryColor);
+
+    margin-top: -20px;
+}
+
+.project-define {
+
+    padding: 20px 0px;
+
+    border-bottom: 2px solid var(--primaryColor);
+}
+
+.body-copy {
+
+    font-size: 15pt;
+
+    color: var(--primaryColor);
+}
+
+
+
+
+/* Image Gallery */
+.img-gallery {
+
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 25px; 
+    gap: 15px;
+}
+
+
+
+
+/* Off Classes */
+.blue {
+
+    color: var(--secondaryColor);
+}
+
+.rightJ {
+
+    text-align: right;
+}
+
+.projectimg {
+
+    width: 100%;
+    height: auto;
+
+    border-radius: 6px;
+}
+
+.up {
+
+    margin-top: -85px;
+}
+
+.subhead {
+
+    color: #efecee;
+    font-size: 16pt;
+}
+
+.whiteBG {
+
+    background-color: var(--primaryColor);
+}
+
+
+
+
+
+/* Font Classes */
+.bold {
+
+    font-family: "bricolage-grotesque", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.regular {
+
+    font-family: "bricolage-grotesque", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.light {
+
+    font-family: "bricolage-grotesque", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+
+
+
+/* Desktop layout breakpoint */
+@media screen and (min-width: 1000px) {
+
+
+
+    /* Featured Works Page */
+    .title {
+
+        font-size: 120pt;
+        line-height: 80%;
+
+        padding-bottom: 200px;
+    }
+
+    .project {
+
+        flex-direction: row;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .project-description {
+
+        display: flex;
+        flex-direction: column;
+
+        flex: 2;
+
+        border-right: 2px solid var(--primaryColor);
+        padding-bottom: 200px;
+    }
+
+    .project-type {
+
+        font-family: "bricolage-grotesque", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+        font-size: 48pt;
+        color: var(--primaryColor);
+
+        line-height: 80%;
+
+        margin-bottom: 5px;
+    }
+
+    .project-year {
+
+        font-family: "bricolage-grotesque", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+        font-size: 32pt;
+        color: var(--primaryColor);
+
+        line-height: 80%;
+
+        margin-top: 5px;
+    }
+
+    .project-explain {
+
+        font-family: "bricolage-grotesque", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+
+        font-size: 18pt;
+        color: var(--primaryColor);
+
+        line-height: 100%;
+        width: 435px;
+
+        margin-bottom: 5px;
+    }
+
+    .project-media {
+
+        flex: 3;
+        text-align: left;
+
+        margin: 0px;
+
+        height: fit-content;
+
+        line-height: 150%;
+    }
+
+    h2 {
+
+        font-size: 50pt;
+    }
+
+
+
+
+
+    /* Specific Work Page */
+    .off-center {
+
+        text-align: start;
+
+        padding-left: 200px;
+    }
+
+    .project-info {
+
+        display: flex;
+        flex-direction: row-reverse;
+
+        margin: 50px 0px;
+    }
+
+    .project-define {
+
+        flex: 2;
+
+        padding-left: 200px;
+        padding-right: 50px;
+
+        border-right: 2px solid var(--primaryColor);
+        border-bottom: 0px solid var(--primaryColor);
+    }
+
+    .project-define p {
+
+        font-size: 24pt;
+    }
+
+    .project-qualifiers {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+        flex: 1;
+
+        border-bottom: 0px solid var(--primaryColor);
+
+        padding-bottom: 20px;
+    }
+
+    .left-block {
+
+        text-align: right;
+
+        margin-bottom: -300px;
+    }
+
+    .subhead {
+
+        font-size: 28pt;
+    }
+
+    .program {
+
+        font-size: 24pt;
+
+        margin-top: -50px;
+    }
+
+    .img-gallery {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        gap: 20px;
+
+        margin-top: 25px;
+    }
+
+    .img-gallery img {
+
+        width: 100%;
+        height: auto;
+
+        aspect-ratio: 1.33 / 1;
+    }
+}

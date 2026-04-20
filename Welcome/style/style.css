@@ -1,0 +1,58 @@
+/* * {
+
+    outline: 1px solid solid;
+} */
+
+body {
+
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-image: url("../../Media/colored-pencils.png");
+    background-position: right;
+}
+
+h1 {
+
+    text-align: center;
+    font-size: 48pt;
+    padding-bottom: 50px;
+
+    font-family: "all-round-gothic", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+p {
+
+    font-size: 18pt;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+    font-family: "all-round-gothic", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+    margin-left: 20px;
+}
+
+p a:link {
+
+    color: black;
+}
+
+p a:hover {
+
+    background-color: black;
+    outline: 3px solid white;
+    color: white;
+}
+
+p a:visited {
+
+    color:white;
+}

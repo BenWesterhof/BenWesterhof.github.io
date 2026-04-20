@@ -1,0 +1,41 @@
+:root {
+
+    font-size: 24pt;
+}
+
+#chess-grid {
+
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr;
+    grid-template-rows: 1fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr;
+
+    height: 90vh;
+    aspect-ratio: 1/1;
+    gap: 0.2rem;
+    padding: 0.2rem;
+
+    background-color: rgb(80, 11, 11);
+
+}
+
+#chess-grid div {
+
+    background-color: rgb(216, 60, 60);
+    padding: 0.2rem;
+}
+
+#chess-grid div:nth-of-type(odd) {
+
+    background-color: rgb(255, 227, 227);
+}
+
+#chess-grid div:nth-of-type(odd):hover{
+
+    background-color: rgb(156, 181, 255);
+}
+
+#chess-grid div:nth-of-type(even):hover {
+
+
+    background-color: rgb(74, 108, 211);
+}

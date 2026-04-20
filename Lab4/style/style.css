@@ -1,0 +1,72 @@
+/* * {
+
+    outline: 1px solid aqua;
+} */
+
+body{
+
+    font-size: 18pt;
+    text-align: center;
+    background-color: rgb(190, 209, 255);
+}
+
+h1 {
+
+    background-color: rgb(47, 83, 229);
+    color: aliceblue;
+}
+
+.blue {
+
+    background-color: rgb(112, 137, 202)
+}
+
+.red {
+
+    color: red;
+}
+
+.pink {
+
+    color: pink;
+}
+
+.orange {
+
+    color: orange;
+}
+
+.bold {
+
+    font-weight: bold;
+}
+
+.italic {
+
+    font-style: italic;
+}
+
+.lightshade {
+
+    /* background-color: rgb(210, 210, 210); */
+}
+
+.darkshade {
+
+    /* background-color: darkgray; */
+}
+
+p.shaded {
+
+    background-color: rgb(246, 241, 241);
+}
+
+h2.shaded {
+
+    background-color: rgb(230, 225, 225);
+}
+
+h1#pageTitle {
+
+    color: red;
+}

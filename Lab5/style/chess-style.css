@@ -1,0 +1,39 @@
+/* * {
+
+    outline: 1px solid aqua;
+} */
+
+#maincontainer {
+
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#chessboard {
+
+    width: 800px;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+    outline: 5px solid black;
+}
+
+#chessboard div {
+
+    min-width: 100px;
+    min-height: 100px;
+    outline: 1px solid rgb(203, 203, 203);
+}
+
+.black {
+
+    background-color: black;
+}

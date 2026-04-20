@@ -1,0 +1,38 @@
+* {
+
+    outline: 1px solid magenta;
+}
+
+:root {
+
+    font-size: 20px;
+}
+
+#main-container {
+
+    width: 100vw;
+    height: 10vh;
+    padding: 10px;
+    background-color: aquamarine;
+    display: flex; /* ths rule activates flex layout for a container */
+    flex-direction: row; /* determines the direcion of the content flow */
+    justify-content: flex-start; /* align items based on the main axis */
+    align-items: center; /* align items based on the cross axis */
+    gap: 10px; /* only available for flex and grid mode */
+
+    overflow-x: hidden;
+    overflow-x: scroll;
+}
+
+#main-container div {
+
+    background-color: bisque;
+    padding: 15px;
+    min-width: 600px;
+    height: 400px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}

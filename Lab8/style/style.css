@@ -1,0 +1,149 @@
+:root {
+
+    font-size: 18pt;
+}
+
+* {
+
+    outline: 2px solid magenta;
+}
+
+body {
+
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /*I will remove this later*/
+    background-color: antiquewhite;
+}
+
+header, nav, main, footer {
+
+
+    background-color: aqua;
+}
+
+header {
+
+    background-color: rgb(255, 170, 245);
+    height: 200px;
+    font-size: 4rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+
+    background-color: rgb(183, 230, 179);
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+nav a {
+
+    display: inline-block;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+
+nav a:link {
+
+    color: black;
+
+}
+
+nav a:hover {
+
+    background-color: aliceblue;
+    color: purple;
+    transform: rotate(180deg) scale(2);
+}
+
+main {
+
+    background-color: rgb(183, 230, 179);
+    min-height: 500px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+aside {
+
+    background-color: rgb(183, 230, 179);
+    width: 400px;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+aside a {
+
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+article {
+
+    background-color: rgb(183, 230, 179);
+    flex-grow: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+article div {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 230px;
+    height: 400px;
+    background-color: white;
+    font-size: 0.6rem;
+    padding: 15px;
+}
+
+article div div {
+
+    width: 150px;
+    height: 220px;
+    background-color: grey;
+    margin: 20px;
+}
+
+.peony {
+
+    background-image: url(../../Media/peony.png);
+    size: 100%;
+    background-repeat: no-repeat;
+}
+
+.rose {
+
+    background-image: url(../../Media/rose.png);
+}
+
+.orchid {
+
+    background-image: url(../../Media/orchid.png);
+}
+
+footer {
+
+    background-color: rgb(255, 170, 245);
+    min-height: 300px;
+}
