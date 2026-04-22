@@ -1,7 +1,8 @@
-/* * {
+* {
 
-    outline: 1px solid red;
-} */
+    /* outline: 1px solid red; */
+    transition: 0.5s ease-in-out;
+}
 
 :root {
 
@@ -52,6 +53,13 @@ nav a {
     text-decoration: none;
 
     margin-left: 30px;
+}
+
+nav a:hover {
+
+    color: var(--secondaryColor);
+    
+    transition: ease 0.3s;
 }
 
 .logo {
