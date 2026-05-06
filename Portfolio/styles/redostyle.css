@@ -96,6 +96,16 @@ h1 {
 
 
 
+/*Main Page*/
+.coming-soon {
+
+    padding: 20px 0px;
+
+    border-top: 2px solid var(--primaryColor);
+    border-bottom: 2px solid var(--primaryColor);
+}
+
+
 
 /* Project Area */
 .projectspace {
@@ -204,6 +214,48 @@ h2 {
 
     margin-top: 25px; 
     gap: 15px;
+}
+
+
+
+
+/* Bio Page */
+
+
+
+
+/* Contact Page */
+.contact {
+
+    padding: 20px;
+}
+
+.button {
+
+    margin-left: 20px;
+    padding: 20px;
+
+    background-color: var(--primaryColor);
+    color: var(--backgroundColor);
+
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-family: "bricolage-grotesque", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+    border-radius: 4px;
+
+    width: 50%;
+}
+
+.button:hover {
+
+    background-color: var(--secondaryColor);
+    color: var(--primaryColor);
+    
+    transition: ease 0.3s;
 }
 
 
@@ -449,5 +501,19 @@ h2 {
         height: auto;
 
         aspect-ratio: 1.33 / 1;
+    }
+
+
+    /* Contact Page */
+    .contact {
+
+        padding: 100px 300px;
+    }
+
+    .button {
+
+        margin-left: 300px;
+
+        max-width: 30%;
     }
 }
